@@ -57,7 +57,7 @@ static int gs_fd;                           /**< spi handle */
  */
 uint8_t max31855_interface_spi_init(void)
 {
-    return spi_init(SPI_DEVICE_NAME, &gs_fd, SPI_MODE_TYPE_0, 1000 * 1000 * 1);
+    return spi_init(SPI_DEVICE_NAME, &gs_fd, SPI_MODE_TYPE_0, 1000 * 1000);
 }
 
 /**
