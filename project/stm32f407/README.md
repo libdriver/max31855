@@ -75,7 +75,7 @@ We use '\n' to wrap lines.If your serial port assistant displays exceptions (e.g
 ```shell
 max31855 -i
 
-max31855: chip is Maxim Integrated max31855.
+max31855: chip is Maxim Integrated MAX31855.
 max31855: manufacturer is Maxim Integrated.
 max31855: interface is SPI.
 max31855: driver version is 1.0.
