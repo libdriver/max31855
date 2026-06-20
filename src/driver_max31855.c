@@ -39,7 +39,7 @@
 /**
  * @brief chip information definition
  */
-#define CHIP_NAME                 "Maxim Integrated max31855"       /**< chip name */
+#define CHIP_NAME                 "Maxim Integrated MAX31855"       /**< chip name */
 #define MANUFACTURER_NAME         "Maxim Integrated"                /**< manufacturer name */
 #define SUPPLY_VOLTAGE_MIN        3.0f                              /**< chip min supply voltage */
 #define SUPPLY_VOLTAGE_MAX        3.6f                              /**< chip max supply voltage */
