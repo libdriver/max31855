@@ -61,10 +61,10 @@ extern "C"{
  */
 typedef enum
 {
-    MAX31855_FAULT_NONE = 0x00,           /**< none */
-    MAX31855_FAULT_OC  = (1 << 0),        /**< open, no connections */
-    MAX31855_FAULT_SCG = (1 << 1),        /**< short-circuited to gnd */
-    MAX31855_FAULT_SCV = (1 << 2),        /**< short-circuited to vcc */
+    MAX31855_FAULT_NONE = 0x00,            /**< none */
+    MAX31855_FAULT_OC   = (1 << 0),        /**< open, no connections */
+    MAX31855_FAULT_SCG  = (1 << 1),        /**< short-circuited to gnd */
+    MAX31855_FAULT_SCV  = (1 << 2),        /**< short-circuited to vcc */
 } max31855_fault_t;
 
 /**
