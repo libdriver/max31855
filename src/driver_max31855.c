@@ -44,7 +44,7 @@
 #define SUPPLY_VOLTAGE_MIN        3.0f                              /**< chip min supply voltage */
 #define SUPPLY_VOLTAGE_MAX        3.6f                              /**< chip max supply voltage */
 #define MAX_CURRENT               1.5f                              /**< chip max current */
-#define TEMPERATURE_MIN           -20.0f                            /**< chip min operating temperature */
+#define TEMPERATURE_MIN           -40.0f                            /**< chip min operating temperature */
 #define TEMPERATURE_MAX           125.0f                            /**< chip max operating temperature */
 #define DRIVER_VERSION            1000                              /**< driver version */
 
@@ -262,7 +262,7 @@ uint8_t max31855_read(max31855_handle_t *handle, int16_t *thermocouple_raw, floa
     *thermocouple_temp = (float)(*thermocouple_raw) * 0.25f;                  /* convert data */
     if ((d0 >> 15) != 0)                                                      /* check sign bit */
     {
-        *reference_junction_raw = (int16_t)((d1 >> 4) | 0xF000U);             /* set raw data */
+        *reference_junction_raw = (int16_t)((d0 >> 4) | 0xF000U);             /* set raw data */
     }
     else
     {

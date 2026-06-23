@@ -118,7 +118,7 @@ max31855: min supply voltage is 3.0V.
 max31855: max supply voltage is 3.6V.
 max31855: max current is 1.50mA.
 max31855: max temperature is 125.0C.
-max31855: min temperature is -20.0C.
+max31855: min temperature is -40.0C.
 ```
 
 ```shell
