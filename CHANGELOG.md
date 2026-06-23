@@ -1,3 +1,9 @@
+## 1.0.6 (2026-06-23)
+
+## Bug Fixes
+
+- fix convert bugs
+
 ## 1.0.5 (2026-06-22)
 
 ## Bug Fixes
